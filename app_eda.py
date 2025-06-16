@@ -93,3 +93,6 @@ class EDA:
             st.pyplot(plt)
 
 # 나머지 네비게이션, 페이지 정의 코드는 기존 그대로 유지
+# 예시: 앱 시작을 위한 실행 코드
+if __name__ == '__main__':
+    EDA()  # 또는 run_main(), main(), st.page(...) 구조
