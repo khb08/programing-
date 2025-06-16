@@ -1,5 +1,9 @@
 # 수정된 app_eda.py 파일의 일부: EDA 클래스 내 '인구 분석' 탭 추가
 # 기존 코드 아래에 추가되도록 구성
+import streamlit as st
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 class EDA:
     def __init__(self):
